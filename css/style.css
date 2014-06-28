@@ -75,3 +75,56 @@ body{
   width: 100%;
   height: 100%;
 }
+#top_title{
+  width: 320px;
+  height: 30px;
+  float: left;
+  position: relative;
+}
+.left_table{
+  width: 320px;
+  height: 30px;
+  float: left;
+  position: relative;
+}
+.left_table li{
+  width: 80px;
+  height: 30px;
+  line-height: 36px;
+  position: absolute;
+  top: 0px;
+  padding-left: 8px;
+  overflow: hidden;
+  font-size: 14px;
+  cursor: pointer;
+}
+.on_table{
+  background: url('../assets/table-list.png') no-repeat 0 -5px;
+  z-index: 60;
+  color: #888;  
+}
+.table_list_1{
+  background: url('../assets/table-list.png') no-repeat 0 40px;
+  left: 0px;
+  z-index: 50;
+  color: #fff;
+}
+.table_list_2{
+  background: url('../assets/table-list.png') no-repeat 0 -75px;
+  left: 80px;
+  z-index: 40;
+  color: #fff;
+}
+.table_list_3{
+  background: url('../assets/table-list.png') no-repeat 0 -110px;
+  left: 160px;
+  z-index: 30;
+  color: #fff;
+}
+.table_list_4{
+  background: url('../assets/table-list.png') no-repeat 0 -145px;
+  left: 240px;
+  z-index: 20;
+  color: #fff;
+}
+
