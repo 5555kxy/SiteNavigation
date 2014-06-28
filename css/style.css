@@ -34,3 +34,44 @@ body{
 #tianqi_iframe{
   width: 420px;
 }
+#search{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  background: url('../assets/top_page.png') center;
+  top: 0px;
+  z-index: 9000;
+  cursor: pointer;
+  left: 43%;
+}
+#gifbg{
+  width: 100%;
+  height: 100%;
+  background: url('../assets/top_page.gif');
+}
+#search_page{
+  width: 100%;
+  height: 500px;
+  background: url('../assets/new_page_bg.png');
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 9000;
+}
+#search_page_con{
+  width: 100%;
+  height: 450px;
+  margin: 0px auto 10px auto;
+}
+#search_page_btn{
+  width:100px;
+  height: 40px;
+  background: url('../assets/new_page_bottom_butn.png');
+  margin: 0 auto;
+  cursor: pointer;
+}
+#search_iframe{
+  width: 100%;
+  height: 100%;
+}
